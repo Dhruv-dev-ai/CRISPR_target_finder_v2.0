@@ -1,0 +1,32 @@
+site_name: CRISPR Target Finder
+site_description: Production-grade CRISPR/Cas9 guide RNA design and analysis platform
+site_author: CRISPR Target Finder Team
+site_url: https://yourusername.github.io/crispr-target-finder/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: cyan
+    accent: light-blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - API Reference: api.md
+  - Scoring Algorithm: scoring.md
+  - Deployment: deployment.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search

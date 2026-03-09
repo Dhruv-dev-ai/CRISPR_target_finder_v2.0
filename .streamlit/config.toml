@@ -1,0 +1,26 @@
+# .streamlit/config.toml
+# ══════════════════════════════════════════════════════════════
+# CRISPR Target Finder — Streamlit Config
+# ══════════════════════════════════════════════════════════════
+
+[theme]
+base                = "dark"
+primaryColor        = "#00c896"
+backgroundColor     = "#050d1a"
+secondaryBackgroundColor = "#0a1628"
+textColor           = "#e8f4f0"
+font                = "sans serif"
+
+[server]
+headless            = true
+enableCORS          = false
+enableXsrfProtection = true
+maxUploadSize       = 200      # MB
+
+[browser]
+gatherUsageStats    = false
+serverAddress       = "localhost"
+
+[runner]
+magicEnabled        = false
+fastReruns          = true
